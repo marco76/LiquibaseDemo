@@ -2,9 +2,10 @@ package dev.marco.liquibasedemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class LiquibaseDemoApplication {
+public class LiquibaseDemoApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
         SpringApplication.run(LiquibaseDemoApplication.class, args);
